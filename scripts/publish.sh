@@ -31,5 +31,60 @@ gh release create v$VERSION
 gh release upload v$VERSION ./dist/Ollama-${OS}-${ARCH}.zip
 
 # Upload the binary.
+gh release upload v$VERSION ./dist/ollama-${OS}-${ARCH}mkdir -p dist
+cp app/out/make/zip/${OS}/${ARCH}/Ollama-${OS}-${ARCH}-${VERSION}.zip dist/Ollama-${OS}-${ARCH}.zip
+cp ./ollama  dist/ollama-${OS}-${ARCH}
+
+# Create a new release.
+gh release create v$VERSION
+
+# Upload the zip file.
+gh release upload v$VERSION ./dist/Ollama-${OS}-${ARCH}.zip
+
+# Upload the binary.
+gh release upload v$VERSION ./dist/ollama-${OS}-${ARCH}mkdir -p dist
+cp app/out/make/zip/${OS}/${ARCH}/Ollama-${OS}-${ARCH}-${VERSION}.zip dist/Ollama-${OS}-${ARCH}.zip
+cp ./ollama  dist/ollama-${OS}-${ARCH}
+
+# Create a new release.
+gh release create v$VERSION
+
+# Upload the zip file.
+gh release upload v$VERSION ./dist/Ollama-${OS}-${ARCH}.zip
+
+# Upload the binary.
+gh release upload v$VERSION ./dist/ollama-${OS}-${ARCH}mkdir -p dist
+cp app/out/make/zip/${OS}/${ARCH}/Ollama-${OS}-${ARCH}-${VERSION}.zip dist/Ollama-${OS}-${ARCH}.zip
+cp ./ollama  dist/ollama-${OS}-${ARCH}
+
+# Create a new release.
+gh release create v$VERSION
+
+# Upload the zip file.
+gh release upload v$VERSION ./dist/Ollama-${OS}-${ARCH}.zip
+
+# Upload the binary.
+gh release upload v$VERSION ./dist/ollama-${OS}-${ARCH}mkdir -p dist
+cp app/out/make/zip/${OS}/${ARCH}/Ollama-${OS}-${ARCH}-${VERSION}.zip dist/Ollama-${OS}-${ARCH}.zip
+cp ./ollama  dist/ollama-${OS}-${ARCH}
+
+# Create a new release.
+gh release create v$VERSION
+
+# Upload the zip file.
+gh release upload v$VERSION ./dist/Ollama-${OS}-${ARCH}.zip
+
+# Upload the binary.
+gh release upload v$VERSION ./dist/ollama-${OS}-${ARCH}mkdir -p dist
+cp app/out/make/zip/${OS}/${ARCH}/Ollama-${OS}-${ARCH}-${VERSION}.zip dist/Ollama-${OS}-${ARCH}.zip
+cp ./ollama  dist/ollama-${OS}-${ARCH}
+
+# Create a new release.
+gh release create v$VERSION
+
+# Upload the zip file.
+gh release upload v$VERSION ./dist/Ollama-${OS}-${ARCH}.zip
+
+# Upload the binary.
 gh release upload v$VERSION ./dist/ollama-${OS}-${ARCH}
 
